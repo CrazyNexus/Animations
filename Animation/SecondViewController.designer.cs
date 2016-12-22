@@ -1,4 +1,4 @@
-﻿// WARNING
+// WARNING
 //
 // This file has been generated automatically by Xamarin Studio from the outlets and
 // actions declared in your storyboard file.
@@ -11,11 +11,11 @@ using UIKit;
 
 namespace Animation
 {
-	[Register("SecondViewController")]
-	partial class SecondViewController
-	{
-		void ReleaseDesignerOutlets()
-		{
-		}
-	}
+    [Register ("SecondViewController")]
+    partial class SecondViewController
+    {
+        void ReleaseDesignerOutlets ()
+        {
+        }
+    }
 }
