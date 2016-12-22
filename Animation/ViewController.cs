@@ -71,6 +71,7 @@ namespace Animation
 				}
 			);
 
+			// Implicit Animation
 			//CATransaction.Begin();
 			//CATransaction.AnimationDuration = 10;
 			//layer.Position = new CGPoint(50, 400);
@@ -78,6 +79,8 @@ namespace Animation
 			//layer.BorderColor = UIColor.Red.CGColor;
 			//CATransaction.Commit();
 
+
+			// Explicit Animation
 			CGPoint fromPoint = layer.Position;
 			layer.Position = new CGPoint(200, 300);
 
